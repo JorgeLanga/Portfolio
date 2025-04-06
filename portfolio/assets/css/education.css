@@ -1,0 +1,51 @@
+/*Estilizacao da pagina education*/
+
+
+
+#content-group {
+    margin-top: 200px;
+  }
+
+  #actual {
+    color:var(--red);
+}
+  
+  .content-education {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .title-align {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .card-content {
+    width: 28.2rem; 
+    height: 15.65rem;
+    background:var(--surface);
+    box-shadow: 1px 2px 5px;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: justify;
+  }
+  
+ 
+  
+  #content-button {
+    position: relative;
+  }
+  
+  #button-scroll {
+    border: 5px solid var(--primaryOpacity); 
+    border-radius: 50%;
+    width: 1.88rem;
+    height: 30px;
+    position: fixed;
+    bottom: 100px;
+    left: 97%;
+  }
+  

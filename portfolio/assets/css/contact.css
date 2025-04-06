@@ -1,0 +1,36 @@
+
+/*Estilizacao da pagina contactos*/
+
+#actual {
+    color:var(--red);
+}
+
+#contact {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #content-contancts {
+    background: var(--primary);
+    padding: 15px 0px;
+    width: 50%;
+    padding: 20px 0px 0px 80px;
+  }
+  
+  #content-contancts .white {
+    color: var(--white); 
+  }
+  
+  #content-contanct {
+    justify-items: center;
+    background: var(--secondary);
+    padding: 15px 0px;
+    width: 50%;
+  }
+  
+  input {
+    background: none;
+    border-bottom: 1 solid var(--white); 
+  }
+  

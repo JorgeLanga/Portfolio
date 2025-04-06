@@ -1,0 +1,42 @@
+
+#article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #actual {
+    color:var(--red);
+}
+
+#sobre-mim {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    text-align: justify;
+  }
+
+  
+  .content-sobremim {
+    width: 20rem; 
+  }
+  
+ 
+  
+  /*Estilizacao da tabela de habilidades*/
+  
+  #table-content {
+    width: 100%;
+    table-layout: fixed;
+    background: var(--primary);
+    padding: 25px;
+  }
+  
+  td {
+    text-align: center;
+    background-color: var(--primaryOpacity);
+    color: var(--white); 
+    padding: 20px 10px;
+  }
+  
